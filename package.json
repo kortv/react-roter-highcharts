@@ -1,5 +1,5 @@
  {
-  "name": "tutorial",
+  "name": "react-roter-highcharts",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,7 +10,7 @@
     "build:client": "webpack"
   },
   "author": "",
-  "license": "ISC",
+  "license": "",
   "dependencies": {
     "babel-eslint": "^6.0.3",
     "compression": "^1.6.1",
