@@ -6,7 +6,7 @@ export default function RandomLink() {
   const rand2 = Math.floor(Math.random() * 100);
   const rand3 = Math.floor(Math.random() * 100);
   return (
-    <Link to={`/${rand1}/${rand2}/${rand3}`}>
+    <Link to={`/charts/${rand1}/${rand2}/${rand3}`}>
       Custom Charts
     </Link>);
 }

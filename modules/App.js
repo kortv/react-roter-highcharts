@@ -7,7 +7,7 @@ export default function (props) {
     <div>
       <h1>React Router Highcharts</h1>
       <ul role='nav'>
-        <li><Link to='/'>Home</Link></li>
+        <li><Link to='/charts/'>Home</Link></li>
         <li><RandomLink /></li>
       </ul>
       {props.children}

@@ -5,8 +5,8 @@ import Home from './Home';
 import RandomBars from './RandomBars';
 
 module.exports = (
-  <Route path='/' component={App}>
+  <Route path='/charts' component={App}>
     <IndexRoute component={Home} />
-    <Route path='/:barCount/:minHeight/:maxHeight' component={RandomBars} />
+    <Route path='/charts/:barCount/:minHeight/:maxHeight' component={RandomBars} />
   </Route>
 );
