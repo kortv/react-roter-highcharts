@@ -1,4 +1,4 @@
-# react-roter-highcharts
+# react-router-highcharts
 
 
 npm i
